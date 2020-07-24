@@ -49,7 +49,7 @@ async function getQuote() {
 }
 
 function tweetQuote() {
-    const quoteText = encodeURIComponent(quote.innerText);
+    const quoteText = encodeURIComponent(text.innerText);
     const authorText = encodeURIComponent(author.innerText);
     console.log(quoteText);
     console.log(authorText);
