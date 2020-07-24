@@ -55,7 +55,7 @@ function tweetQuote() {
     console.log(authorText);
 
 
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText} - ${authorText}`;
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText}`;
     window.open(twitterUrl, '_blank');
 }
 
